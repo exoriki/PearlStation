@@ -13,7 +13,7 @@ What changed on [pearlstation.io](https://pearlstation.io).
 
 ## 0.4.1 (2026-10-21)
 
-- Remove offline workers from the list. They come back by themselves once they mine again.
+- Button to remove offline workers from the list. They come back by themselves once they mine again.
 - Telegram test alerts are rate limited.
 - Proper favicon and app icons (install to home screen).
 
