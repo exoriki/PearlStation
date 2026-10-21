@@ -4,7 +4,7 @@ What changed on [pearlstation.io](https://pearlstation.io).
 
 ## 0.4.3 (2026-10-21)
 
-- **New miner releases show up within an hour** (was three hours), and right away after every update of the site. WildRig Multi 0.51.6 is in the guide and the Pro setup files.
+- **New miner releases show up within an hour** (was three hours), and right away after every update of the site.
 
 ## 0.4.2 (2026-10-21)
 
