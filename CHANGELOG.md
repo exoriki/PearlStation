@@ -4,8 +4,6 @@ What changed on [pearlstation.io](https://pearlstation.io).
 
 ## 0.4.2 (2026-10-21)
 
-Thanks to the Kryptex team for the feedback behind this release.
-
 - **Miners per pool.** Each pool card in the guide now lists the miners that pool documents itself. The Pro setup generator only offers a pool for the miners it supports, so you can't build a setup that won't connect.
 - **WildRig Multi is offered for PearlHash only**, the only pool that documents it.
 - **Intel Arc support:** BzMiner (NVIDIA, AMD and Intel Arc) is in the guide and in the Pro setup generator: Windows and Linux start files and a HiveOS flight sheet.
