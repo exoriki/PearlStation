@@ -2,6 +2,10 @@
 
 What changed on [pearlstation.io](https://pearlstation.io).
 
+## 0.4.3 (2026-10-21)
+
+- **New miner releases show up within an hour** (was three hours), and right away after every update of the site. WildRig Multi 0.51.6 is in the guide and the Pro setup files.
+
 ## 0.4.2 (2026-10-21)
 
 - **Miners per pool.** Each pool card in the guide now lists the miners that pool documents itself. The Pro setup generator only offers a pool for the miners it supports, so you can't build a setup that won't connect.
