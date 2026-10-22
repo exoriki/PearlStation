@@ -2,7 +2,7 @@
 
 **A mining dashboard for Pearl (PRL).** Every major pool in one place, your wallet's on-chain history, real profit after power costs, pool comparison and the market. No email, no tracking.
 
-**Open it:** [pearlstation.io](https://pearlstation.io) · **Telegram:** [@PearlStationBot](https://t.me/PearlStationBot)
+**Open it:** [pearlstation.io](https://pearlstation.io) · **News:** [pearlstation.io/news](https://pearlstation.io/news) · **Telegram:** [@PearlStationBot](https://t.me/PearlStationBot)
 
 ![Overview](docs/screenshots/overview.png)
 
@@ -15,12 +15,14 @@
 - **Payouts:** every deposit to your wallet, read from the blockchain.
 - **Earnings and calculator:** real yield per TH/s, profit after electricity.
 - **Pool comparison and pool guide:** fees, payout schemes, minimum payouts, verified stratum servers, the miners each pool supports and its share difficulty settings.
+- **Who finds the blocks:** every Pearl block matched to the pool that found it, with blocks per pool and luck over 24 hours and 7 days.
+- **FP8 fork tracker:** where PIP-3 stands and whether your GPU is listed.
 - **Network and market:** network hashrate and difficulty, PRL price, candles, order book.
 
 **Pro** (paid in PRL, verified on chain, no subscription)
 - Telegram alerts when a rig goes offline, hashrate drops, a payout arrives or the price crosses a level.
 - Daily or weekly report, plus bot commands: `/status`, `/report`, `/alerts`, `/price`, `/miners`.
-- Ready-made miner setup: Windows and Linux start files and HiveOS flight sheets, always on the newest SRBMiner-MULTI, BzMiner (also Intel Arc) or WildRig Multi, for the pools that support them, with optional share difficulty and an alert when a new version is out.
+- Ready-made miner setup: Windows and Linux start files and HiveOS flight sheets, always on the newest SRBMiner-MULTI, BzMiner (also Intel Arc), WildRig Multi or OneZeroMiner, for the pools that support them, with optional share difficulty and an alert when a new version is out.
 - A year of hashrate history and a tax/accounting CSV export.
 
 | Earnings | Pool guide | Phone |

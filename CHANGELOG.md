@@ -2,6 +2,14 @@
 
 What changed on [pearlstation.io](https://pearlstation.io).
 
+## 0.4.4 (2026-10-22)
+
+- **Pearl news on the site.** [pearlstation.io/news](https://pearlstation.io/news) has guides, release round-ups and reports about Pearl mining, each with its own featured image. The three newest posts are on the home page, and News is in the top menu. Follow along with the [RSS feed](https://pearlstation.io/news/feed.xml).
+- **Who finds the blocks.** A new Blocks page in the app matches every Pearl block to the pool that found it, read from the chain: blocks per pool over 24 hours and 7 days, each pool's luck, and the latest blocks.
+- **FP8 fork tracker (PIP-3).** Where the fork stands, which GPUs the proposal lists, and a "will my GPU still mine?" checker.
+- **OneZeroMiner** (NVIDIA) is in the Pro setup generator for Kryptex, the pool that documents it: Windows and Linux start files and a HiveOS flight sheet, always on the newest version.
+- New releases of SRBMiner, BzMiner, WildRig and OneZeroMiner are tracked for the "new miner version" alert.
+
 ## 0.4.3 (2026-10-21)
 
 - **New miner releases show up within an hour** (was three hours), and right away after every update of the site.
