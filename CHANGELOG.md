@@ -2,6 +2,11 @@
 
 What changed on [pearlstation.io](https://pearlstation.io).
 
+## 0.4.6 (2026-10-26)
+
+- **Two new guides:** [Pearl mining alerts on Telegram](https://pearlstation.io/news/pearl-mining-telegram-alerts) and [Pearl mining pools compared](https://pearlstation.io/news/pearl-mining-pools-compared-october-2026): fees, payout schemes and who finds the blocks.
+- Pearl Fortune's hashrate no longer shows 0 for a few minutes at the start of each hour.
+
 ## 0.4.5 (2026-10-26)
 
 - **Clean links.** App pages now have their own address, like [pearlstation.io/app/pools](https://pearlstation.io/app/pools) instead of `/app#pools`. Back and forward work, and old `#` links still open the right page.
