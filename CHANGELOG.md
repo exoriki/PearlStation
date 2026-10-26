@@ -2,6 +2,16 @@
 
 What changed on [pearlstation.io](https://pearlstation.io).
 
+## 0.4.5 (2026-10-26)
+
+- **Clean links.** App pages now have their own address, like [pearlstation.io/app/pools](https://pearlstation.io/app/pools) instead of `/app#pools`. Back and forward work, and old `#` links still open the right page.
+- **Telegram alerts link to the app.** Every alert and bot reply ends with links to the right page: Workers for a rig going offline, the explorer transaction for a payout, Market for price alerts.
+- **Several wallets in Telegram.** The daily report shows your totals and then a block per wallet (mined, average hashrate, workers online). `/status` asks the pools right then and shows each wallet's hashrate. Offline alerts say which wallet the rig is on.
+- **Faster bot.** Replies are handled side by side, so one slow command no longer holds up the others, and the bot shows "typing…" while it asks the pools.
+- **Wallet history loads fast.** If the explorer is slow, the app shows your saved history at once and refreshes it in the background, instead of waiting up to a minute.
+- **Pools and Earnings agree.** "PRL per PH/s" on Pools now uses the 7-day average network hashrate, like Earnings. On pools you mine on, it also shows your real yield.
+- News images come in 16:9, 4:3 and 1:1, so search results no longer crop the text.
+
 ## 0.4.4 (2026-10-22)
 
 - **Pearl news on the site.** [pearlstation.io/news](https://pearlstation.io/news) has guides, release round-ups and reports about Pearl mining, each with its own featured image. The three newest posts are on the home page, and News is in the top menu. Follow along with the [RSS feed](https://pearlstation.io/news/feed.xml).
