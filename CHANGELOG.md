@@ -2,6 +2,13 @@
 
 What changed on [pearlstation.io](https://pearlstation.io).
 
+## 0.4.7 (2026-10-27)
+
+- **Moved your rigs to another pool?** PearlStation now finds them by itself. When nothing is mining on the pools it knows, it looks on every pool again within 15 minutes instead of the next day. Pro monitoring does the same, so it keeps watching your rigs after a switch.
+- **OneZeroMiner works with every pool except PearlHash**, and the Pro setup generator offers it for each of them.
+- **HeroMiners in the setup generator:** start files and HiveOS flight sheets for SRBMiner and OneZeroMiner, with the pool's 15 regional servers.
+- The copy buttons work on more phones, and say so when copying fails.
+
 ## 0.4.6 (2026-10-26)
 
 - **Two new guides:** [Pearl mining alerts on Telegram](https://pearlstation.io/news/pearl-mining-telegram-alerts) and [Pearl mining pools compared](https://pearlstation.io/news/pearl-mining-pools-compared-october-2026): fees, payout schemes and who finds the blocks.
