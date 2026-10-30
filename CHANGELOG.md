@@ -2,6 +2,11 @@
 
 What changed on [pearlstation.io](https://pearlstation.io).
 
+## 0.4.8 (2026-10-30)
+
+- **Calculator uses the network yield.** Leave "PRL/day per PH/s" empty and it now uses the network average (block reward × blocks per day ÷ the 7-day network hashrate) minus your pool's fee, the long-run rate a projection needs. Your own recent yield is shown below it, if you'd rather use that.
+- **Correct PRL per PH/s after a pool switch.** Your own yield on Earnings and Pools now divides rewards by your hashrate on the same days. Before, days spent on another pool counted as zero, so after a switch it could show a third of the real number.
+
 ## 0.4.7 (2026-10-27)
 
 - **Moved your rigs to another pool?** PearlStation now finds them by itself. When nothing is mining on the pools it knows, it looks on every pool again within 15 minutes instead of the next day. Pro monitoring does the same, so it keeps watching your rigs after a switch.
