@@ -2,6 +2,15 @@
 
 What changed on [pearlstation.io](https://pearlstation.io).
 
+## 0.5.0 (2026-10-31)
+
+- **PearlStation in Chinese.** The app, home page, pool guide and privacy page are now also in Simplified Chinese (简体中文). It switches by itself for Chinese browsers; change it any time in Settings, the profile menu or with the 中文 / EN button on the home page.
+- **Install it on your phone.** Add PearlStation to your home screen and it opens like an app, full screen, even without a connection (with the last data you saw). Android and desktop browsers get an Install button; on iPhone the app shows the Safari steps.
+- **Pool report card.** The Earnings page compares your real PRL per PH/s on each pool with what that pool should pay after its fee, so you see which pool really pays you best. With Pro, over 7 and 30 days as well.
+- **Earnings alert (Pro).** A Telegram message when a day pays well below what the network paid for your hashrate (70% by default, you can change it), with a breakdown per pool.
+- **Find the fastest server.** In the pool guide, test every server of a pool from your own browser and see which one answers fastest. The setup generator can pick it for you.
+- **New guides:** [Pearl merged mining: NOCK, NACRE, and what happened to MDL](https://pearlstation.io/news/pearl-merged-mining-nock-nacre-october-2026), [PRL per PH/s: why your earnings differ from the calculator](https://pearlstation.io/news/pearl-prl-per-ph-explained) and [Pearl FP8 fork: which pools and miners are getting ready](https://pearlstation.io/news/pearl-fp8-fork-readiness-october-2026).
+
 ## 0.4.8 (2026-10-30)
 
 - **Calculator uses the network yield.** Leave "PRL/day per PH/s" empty and it now uses the network average (block reward × blocks per day ÷ the 7-day network hashrate) minus your pool's fee, the long-run rate a projection needs. Your own recent yield is shown below it, if you'd rather use that.
